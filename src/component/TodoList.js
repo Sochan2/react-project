@@ -13,7 +13,6 @@ return(
     <p onClick={()=>toggleComplete(task.id)} className={task.completed ? 'completed': ""}>{task.task}</p>
     <FontAwesomeIcon icon={faPenToSquare} onClick={()=>editTodo(task.id)} />
     <FontAwesomeIcon icon={faTrash} onClick={()=>deleteTodo(task.id)} />
-
   </div>
 )
 }

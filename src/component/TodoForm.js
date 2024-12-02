@@ -19,7 +19,7 @@ export const TodoForm = ({addTodo}) => {
    <form className = "todoForm" onSubmit = {handleSubmit}>
      
      <input className="todoInput" type="text" value = {value} onChange={ handleInputChange} /> 
-     <button className="todoBtn" type="submit">Add new tasks</button>
+     <button className="todoBtn" type="submit">Add new task</button>
    </form>
   );
 }
